@@ -6,7 +6,7 @@ from count_zoom_for_map import count_zoom_for_map
 
 toponym_to_find = 'Саратов, Университетская, 65/73'
 
-geocoder_api_server = "http://geocode-maps.yandex.ru/1.x/"
+geocoder_api_server = " ".join(sys.argv[1:])
 
 geocoder_params = {
     "apikey": "40d1649f-0493-4b70-98ba-98533de7710b",
